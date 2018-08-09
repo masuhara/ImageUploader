@@ -1,0 +1,32 @@
+PODS:
+  - Kingfisher (4.8.0)
+  - NCMB (2.4.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Kingfisher
+  - NCMB (from `https://github.com/NIFCloud-mbaas/ncmb_ios.git`)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: ff4c625eaa4d0789d03ad90ed572f7bfad8691e4
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  NCMB: 7b88a86be4a770bd260f42295c7649b00f57f178
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 575389cdb0f00ad72f972809498d9247e316cffb
+
+COCOAPODS: 1.5.3
